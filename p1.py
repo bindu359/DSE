@@ -26,3 +26,10 @@ plt.scatter(x,y,c=colors,s=sizes,alpha=0.5)
 plt.title("Scatter plot")
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
+#pie chart
+sizes=[20,35,30,25]
+labels=['A','B','C','D']
+plt.figure()
+plt.pie(sizes,labels=labels,autopct='%1.1f%%')
+plt.title("Pie-chart")
+plt.show()
